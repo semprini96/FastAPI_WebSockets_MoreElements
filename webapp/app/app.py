@@ -61,10 +61,10 @@ control_manager = ConnectionManager()
 data_manager = ConnectionManager()
 
 test_list = []
-test_list.append(TestTableEntry('pwm1', 1000, '2024-01-01 08:00:00', 0, 4200, 1000))
-test_list.append(TestTableEntry('pwm2', 2000, '2024-01-02 08:00:00', 0, 4202, 930))
-test_list.append(TestTableEntry('pwm3', 3000, '2024-01-02 10:30:00', 50, 4140, 775))
-test_list.append(TestTableEntry('RATS2137', 4000, '2005-04-02 21:37:00', 69, 1234, 420))
+test_list.append(TestTableEntry('test1', 1000, '2024-01-01 08:00:00', 0, 4200, 1000))
+test_list.append(TestTableEntry('test2', 2000, '2024-01-02 08:00:00', 0, 4202, 930))
+test_list.append(TestTableEntry('test3', 3000, '2024-01-02 10:30:00', 50, 4140, 775))
+test_list.append(TestTableEntry('OtherDevice', 4000, '2024-01-02 20:00:00', 125, 1234, 16777216))
 
 test_list_json = []
 
