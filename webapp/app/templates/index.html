@@ -40,8 +40,8 @@
             var clientSeed = Date.now();
             var controlID = 'Control' + clientSeed;
             var dataID = 'Data' + clientSeed;
-            var ws_control = new WebSocket(`ws://Daniel-Lap:8000/WSControl/${controlID}`);
-            var ws_data = new WebSocket(`ws://Daniel-Lap:8000/WSData/${dataID}`);
+            var ws_control = new WebSocket(`ws://localhost:8000/WSControl/${controlID}`);
+            var ws_data = new WebSocket(`ws://localhost:8000/WSData/${dataID}`);
             
             ws_control.onopen = function(e) {
                 ws_control.send('status');
